@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refletindo sobre IA na Escola</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="caixa-principal">
+        <h1>Inteligência Artificial na Escola</h1>
+        
+        <!-- Tela inicial -->
+        <div id="tela-inicial" class="caixa-conteudo">
+            <p>Bem-vindo! Vamos refletir sobre o uso da IA nas salas de aula?</p>
+            <button id="btn-iniciar">Iniciar Missão</button>
+        </div>
+
+        <!-- Tela do jogo/perguntas que muda com JavaScript -->
+        <div id="tela-perguntas" class="caixa-conteudo desativado">
+            <p id="texto-pergunta">A pergunta ou afirmação vai aparecer aqui...</p>
+            <div class="caixa-botoes" id="alternativas">
+                <!-- Botões de escolha vão aparecer aqui via JS -->
+            </div>
+            <button id="btn-reiniciar" class="desativado">Jogar Novamente</button>
+        </div>
+    </div>
+
+    <!-- Chamando o arquivo de lógica JavaScript -->
+    <script type="module" src="script.js"></script>
+</body>
+</html>
